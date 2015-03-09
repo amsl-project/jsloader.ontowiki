@@ -9,12 +9,12 @@
 
 <> foaf:primaryTopic :jsloader .
 :jsloader a doap:Project ;
-  doap:name "jsloader" ;
+  doap:name "Jsloader" ;
   owconfig:privateNamespace <https://github.com/AKSW/history/raw/master/doap.n3#> ;
-  owconfig:enabled "true"^^xsd:boolean ;
+  owconfig:enabled "false"^^xsd:boolean ;
   owconfig:templates "templates" ;
   owconfig:languages "languages" ;
-  rdfs:label "jsloader" ;
+  rdfs:label "JSloader" ;
   doap:description "An extension that provides a loader that displays a loading animation while JS requests are performed" ;
   owconfig:authorLabel "AKSW" ;
   owconfig:pluginEvent event:onIndexAction ;
