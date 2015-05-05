@@ -41,7 +41,9 @@ class JsloaderHelper extends OntoWiki_Component_Helper
 
         $this->view->headScript()->appendFile($this->_config->urlBase . 'extensions/jsloader/templates/jsloader/js/nprogress.js');
         $this->view->headScript()->appendFile($this->_config->urlBase . 'extensions/jsloader/templates/jsloader/js/jsloader.js');
+        $this->view->headScript()->appendFile($this->_config->urlBase . 'extensions/jsloader/templates/jsloader/js/toastr.min.js');
         $this->view->headLink()->appendStylesheet($this->_config->urlBase . 'extensions/jsloader/templates/jsloader/css/nprogress.css');
+        $this->view->headLink()->appendStylesheet($this->_config->urlBase . 'extensions/jsloader/templates/jsloader/css/toastr.min.css');
     }
 }
 

@@ -1,5 +1,9 @@
 $(document).ready(function () {
 
+    toastr.options = {
+        "positionClass": "toast-bottom-right"
+    };
+
     // Whenever an Ajax request is about to be sent, show the loader
     $(document).ajaxStart(function () {
         //loader.show();
