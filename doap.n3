@@ -11,7 +11,7 @@
 :jsloader a doap:Project ;
   doap:name "Jsloader" ;
   owconfig:privateNamespace <https://github.com/AKSW/history/raw/master/doap.n3#> ;
-  owconfig:enabled "false"^^xsd:boolean ;
+  owconfig:enabled "true"^^xsd:boolean ;
   owconfig:templates "templates" ;
   owconfig:languages "languages" ;
   rdfs:label "JSloader" ;
