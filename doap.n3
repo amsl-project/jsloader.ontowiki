@@ -16,7 +16,7 @@
   owconfig:languages "languages" ;
   rdfs:label "JSloader" ;
   doap:description "An extension that provides a loader that displays a loading animation while JS requests are performed" ;
-  owconfig:authorLabel "AKSW" ;
+  owconfig:authorLabel "UB Leipzig" ;
   owconfig:pluginEvent event:onIndexAction ;
   owconfig:pluginEvent event:onReindexAction ;
   owconfig:pluginEvent event:onDeleteResourceAction ;
